@@ -127,6 +127,7 @@ p.label {
     width: 100%;
     display: flex;
     flex-direction: column;
+    max-width: 564px;
   }
 
   .image-container {
@@ -180,6 +181,9 @@ p.label {
 @media only screen and (min-width: 48rem) {
   #stats-preview-card {
     padding: 5.75rem 6.375rem;
+    .container {
+      max-width: 564px;
+    }
     .image-container {
       height: 442px;
     }
@@ -204,11 +208,12 @@ p.label {
   }
 }
 
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 87rem) {
   #stats-preview-card {
     padding: 11.1875rem 9.75rem;
     .container {
       flex-direction: row-reverse;
+      max-width: 1120px;
     }
 
     .info-card {
