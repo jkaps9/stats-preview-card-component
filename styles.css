@@ -122,6 +122,37 @@ p.label {
   align-items: center;
   padding: 5.5rem 1.5rem 0;
 
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 240px;
+    position: relative;
+  }
+
+  .image {
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 100%;
+    height: 100%;
+    background: url("./assets/images/image-header-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;
+    mix-blend-mode: multiply;
+  }
+
+  .overlay {
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--Purple-500);
+    position: absolute;
+    top: 0;
+  }
+
   .info-card {
     text-align: center;
     max-width: 564px;
