@@ -39,14 +39,6 @@ p.label {
   color: var(--Purple-500);
 }
 
-.text-preset-1 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 125%;
-}
-
 .text-preset-2 {
   /* Text Preset 2 - Inter Bold - 28px - 125% Line Height - 0px Line Spacing */
   font-family: "Inter";
@@ -54,6 +46,12 @@ p.label {
   font-weight: 700;
   font-size: 28px;
   line-height: 125%;
+}
+
+@media only screen and (min-width: 48rem) {
+  .text-preset-2 {
+    font-size: 36px;
+  }
 }
 
 .text-preset-3 {
