@@ -39,6 +39,52 @@ p.label {
   color: var(--Purple-500);
 }
 
+.text-preset-1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+}
+
+.text-preset-2 {
+  /* Text Preset 2 - Inter Bold - 28px - 125% Line Height - 0px Line Spacing */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 125%;
+}
+
+.text-preset-3 {
+  /* Text Preset 3 - Inter Bold - 24px - 120% Line Height - 0px Line Spacing */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.text-preset-4 {
+  /* Text Preset 4 - Inter Regular - 15px - 165% Line Height - 0px Line Spacing */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 165%;
+}
+
+.text-preset-5 {
+  /* Text Preset 5 - Lexend Deca Regular - 12px - 200% Line Height - 1px Line Spacing */
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 /* FONTS */
 /* inter-regular - latin */
 @font-face {
