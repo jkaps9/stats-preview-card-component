@@ -116,11 +116,13 @@ p.label {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding: 0 1.5rem;
   .info-card {
+    text-align: center;
     max-width: 564px;
     padding: 4rem 5rem;
     background-color: var(--Blue-950);
+    border-radius: 0 0 0.5rem 0.5rem;
   }
 
   .text {
@@ -133,6 +135,16 @@ p.label {
 
   .data {
     display: flex;
-    gap: 4rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  #stats-preview-card {
+    .data {
+      flex-direction: row;
+      gap: 4rem;
+    }
   }
 }
