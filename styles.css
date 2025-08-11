@@ -213,11 +213,15 @@ p.label {
     padding: 11.1875rem 9.75rem;
     .container {
       flex-direction: row-reverse;
-      max-width: 1120px;
+      max-width: 1128px;
     }
 
+    .image-container {
+      width: 50%;
+    }
     .info-card {
       border-radius: 0.5rem 0 0 0.5rem;
+      width: 50%;
     }
 
     .overlay {
