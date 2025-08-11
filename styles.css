@@ -6,6 +6,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Main BG */
+  --Navy-950: hsl(233, 47%, 7%);
+  /* Card BG */
+  --Blue-950: hsl(244, 37%, 16%);
+  /* Accent */
+  --Purple-500: hsl(277, 64%, 61%);
+
+  /* Main Heading, Stats */
+  --White: hsl(0, 0%, 100%);
+  /* Main Paragraph */
+  --White: hsla(0, 0%, 100%, 0.75);
+  /* stat heading */
+  --White: hsla(0, 0%, 100%, 0.6);
+}
+
 /* FONTS */
 /* inter-regular - latin */
 @font-face {
