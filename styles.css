@@ -180,6 +180,10 @@ p.label {
 @media only screen and (min-width: 48rem) {
   #stats-preview-card {
     padding: 5.75rem 6.375rem;
+    .image-container {
+      height: 442px;
+    }
+
     .info-card {
       padding: 4rem 5rem;
       text-align: start;
