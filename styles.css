@@ -15,11 +15,28 @@
   --Purple-500: hsl(277, 64%, 61%);
 
   /* Main Heading, Stats */
-  --White: hsl(0, 0%, 100%);
+  --White-head: hsl(0, 0%, 100%);
   /* Main Paragraph */
-  --White: hsla(0, 0%, 100%, 0.75);
+  --White-para: hsla(0, 0%, 100%, 0.75);
   /* stat heading */
-  --White: hsla(0, 0%, 100%, 0.6);
+  --White-subhead: hsla(0, 0%, 100%, 0.6);
+}
+
+h2,
+p.amount {
+  color: var(--White-head);
+}
+
+p {
+  color: var(--White-para);
+}
+
+p.label {
+  color: var(--White-subhead);
+}
+
+.purple {
+  color: var(--Purple-500);
 }
 
 /* FONTS */
@@ -46,4 +63,32 @@
   font-style: normal;
   font-weight: 400;
   src: url("./assets/fonts/lexend-deca-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Stats Preview Card */
+#stats-preview-card {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .info-card {
+    max-width: 564px;
+    padding: 4rem 5rem;
+    background-color: var(--Blue-950);
+  }
+
+  .text {
+    margin-bottom: 4.5rem;
+  }
+
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .data {
+    display: flex;
+    gap: 4rem;
+  }
 }
