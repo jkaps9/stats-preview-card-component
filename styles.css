@@ -120,9 +120,11 @@ p.label {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5.5rem 1.5rem 0;
+  padding: 5.5rem 1.5rem;
 
   .container {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -177,14 +179,19 @@ p.label {
 
 @media only screen and (min-width: 48rem) {
   #stats-preview-card {
+    padding: 5.75rem 6.375rem;
     .info-card {
       padding: 4rem 5rem;
+      text-align: start;
     }
     .text {
       margin-bottom: 4.5rem;
     }
     h2 {
       margin-bottom: 1.5rem;
+    }
+    .text-preset-4 {
+      max-width: 374px;
     }
     .data {
       flex-direction: row;
