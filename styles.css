@@ -22,6 +22,10 @@
   --White-subhead: hsla(0, 0%, 100%, 0.6);
 }
 
+body {
+  background-color: var(--Navy-950);
+}
+
 h2,
 p.amount {
   color: var(--White-head);
@@ -116,21 +120,22 @@ p.label {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1.5rem;
+  padding: 5.5rem 1.5rem 0;
+
   .info-card {
     text-align: center;
     max-width: 564px;
-    padding: 4rem 5rem;
+    padding: 1.5rem 2rem;
     background-color: var(--Blue-950);
     border-radius: 0 0 0.5rem 0.5rem;
   }
 
   .text {
-    margin-bottom: 4.5rem;
+    margin-bottom: 2.5rem;
   }
 
   h2 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .data {
@@ -142,6 +147,15 @@ p.label {
 
 @media only screen and (min-width: 48rem) {
   #stats-preview-card {
+    .info-card {
+      padding: 4rem 5rem;
+    }
+    .text {
+      margin-bottom: 4.5rem;
+    }
+    h2 {
+      margin-bottom: 1.5rem;
+    }
     .data {
       flex-direction: row;
       gap: 4rem;
